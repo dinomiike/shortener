@@ -69,8 +69,7 @@ post '/new' do
     else
         short_url = @check.shorturl
     end
-    # '<a href="http://localhost:4567/r/'+short_url+'">http://localhost:4567/r/'+short_url+'</a>'
-    'http://localhost:4567/r/'+short_url
+    '<a href="http://localhost:4567/r/'+short_url+'">http://localhost:4567/r/'+short_url+'</a>'
 end
 
 get '/jquery.js' do
